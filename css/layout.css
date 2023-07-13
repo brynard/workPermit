@@ -1,0 +1,69 @@
+/*------------------------------*/
+/*--Layout Setting Start--*/
+body {
+    margin: 0;
+    padding: 0; 
+    color: #000;
+    font-family:"新細明體",Verdana, Geneva, sans-serif,;
+    font-family:"Times New Roman", Times, serif;    
+}
+.wrap{
+    width:100%;
+    font-size:13px;
+    margin:0 ;
+    background-color:#FFF;  
+}
+
+/*--hide column--*/
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.clear {
+    border-collapse:collapse;
+    clear: both;
+    margin:0 0 5px 0;
+}
+
+
+/*----------------------------------------------------------------- Layout */
+.layout {
+    clear: both;
+    border-collapse: collapse;
+    padding:0;
+    margin:0;
+    margin-top:25px;
+    margin-bottom:-5px;
+    width:100%; 
+}
+
+.layout .left_mp {
+    width:80%;
+    vertical-align: top;    
+    padding: 0px;
+}
+
+    
+.layout .right_mp {
+    width:20%;
+    vertical-align: top;    
+    padding: 20px 20px 10px 10px;
+    background-image:url(../images/right_bg.gif);
+    background-repeat:repeat-y;
+    background-position:left top;
+    text-align:center;
+    
+}
+
+.layout_main {
+    width:98%;
+    vertical-align: top;
+    padding: 0px;
+    margin-top:20px;
+}
+
+.layout .login{
+	width:540px;
+	margin: auto;	
+}

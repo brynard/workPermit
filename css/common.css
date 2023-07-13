@@ -1,0 +1,442 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.layout .center .accesskey , .layout .leftbg .accesskey , .layout .rightbg .accesskey { 
+    float: left;
+}
+.cp, .lp , .np, .qp, .sitemap, .form, .forum, .forwardForm,.ap{
+    margin:0 20px 0 20px;
+    vertical-align: top;
+    position:relative;
+}
+
+hr{
+    color: #CCCCCC;
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: #999999;
+    height: 1px;
+}
+
+.contenttitle{  
+    padding: 3px 20px 3px 20px;
+    background-color: #e8e7e7;
+    color: #333;
+    font-weight: bold;
+    font-size:120%;
+    border-top:1px dotted #e9dde4;
+    border-bottom:1px dotted #e9dde4;
+    margin:5px 20px 0 20px;;
+    
+}
+
+
+h4{
+    font-size:120%;
+    color:#5b153a;
+    font-weight:bold;
+    background-image:url(../images/icon_h4.gif);
+    background-repeat:no-repeat;
+    background-position:left 2px;
+    padding-left:20px;
+    line-height:160%;
+    margin-left:20px;
+    }
+
+.title_purple{
+    font-size:120%;
+    color:#5b153a;
+    font-weight:bold;   
+    }
+    
+.title_orang{
+    font-size:100%;
+    color:#bf452e;
+    font-weight:bold;
+    background-image:none;
+    padding-left:0px;
+    margin:0;
+}
+.title_gray{
+    font-size:100%;
+    color:#4d4d4d;
+    font-weight:bold;
+    background-image:none;
+    padding-left:0px;
+    margin:0px;
+    }
+    
+.title_blue{
+    font-size:130%;
+    color:#6b7aa5;
+    font-weight:bold;
+    }
+    
+
+    
+
+/*-----------------------大標題-------------------------*/
+.Title_h1 {
+    clear:both;
+    margin:20px 0 0 30px;
+    padding:4px 0 0 28px;;
+    width:auto; 
+    height:22px;
+    background-color:#dddfdf;
+    font-size:16px; 
+    font-weight:bold;       
+    color:#19629d;
+    background-image:url(../images/icon_blue.gif);
+    background-position:7px 5px;
+    background-repeat:no-repeat;
+    position:relative;
+    border:1px solid #CCC;
+    
+    
+    
+}
+
+.Title_h1 span {
+    float:right;
+    margin-right:10px;
+    position:absolute;
+    right: -4px;
+    top: 4px;
+    font-size:15px;
+    color:#333; 
+    
+}
+
+
+
+
+    
+
+
+
+h2{
+    margin:0 0 0px 0;
+    width:98%;
+    font-size:150%;
+    background: url(../images/h2_mpbg.gif) no-repeat 20px top;
+    padding: 0px 20px 10px 50px;    
+    color: #5a133b;
+    float: inherit;
+    clear:both;
+    font-weight:bold;
+    line-height:180%;
+}
+h2 span{
+    float: inherit;
+    padding:0px;
+    margin:0px;
+    background-image:none;
+    text-decoration:none;
+    font-weight:bold;
+}
+h2 span a{
+    color: #069;
+}
+h2 .rss {
+    float: right;
+    margin: -25px 13px 0 0;
+    text-align: right;
+}
+
+
+
+
+
+
+
+h5 {
+    font-size: 1em;
+    color:#066;
+    margin:5px 0;
+    padding:0px;
+    font-weight: normal;
+    clear:both;
+}
+
+.desc{
+    margin:5px 0 5px 10px;
+    color: #660;
+    line-height: 160%;
+}
+.desc a{ text-decoration:underline;}
+/*----------------------------------------------------------------- path */
+.path {
+    margin: 0 auto 0;
+    padding: 4px 0 3px 40px;
+    line-height: 14px;
+    color: #999;
+    text-align: left;
+    position:relative;
+    background: url(../images/path_bg.gif) no-repeat 20px 3px;
+    z-index: 3;
+}
+.path .before {
+    padding: 0 15px 0 0;
+    color: #999;
+}
+.path a {
+    color: #c0442c;
+    text-decoration: none;
+}
+
+.path img {
+    margin: 0 3px;
+}
+
+.aaa {
+    float: right;
+    margin: 5px 25px 0;
+}
+.aaa img {
+    border: 1px solid #038300;
+}
+/*----------------------------------------------------------------- */
+img {
+    border: none;
+}
+em{
+    font-style:normal;
+    font-weight:normal;
+    font-family: "Comic Sans MS", cursive;
+}
+
+a{
+    color: #333;
+    text-decoration:none;
+}
+a:hover{
+    color: #C30;
+    text-decoration:underline;
+}
+a:focus{
+    color: #C30;
+    
+}
+.blockquote{
+    color: #996600;
+    line-height: 20px;
+    margin:5px 10px 0 10px;
+    clear:both;
+}
+.dept{
+    color:#696;
+    margin:0 0 0 5px;
+    padding:0 0 0 3px;
+    border-left:1px solid #CCC;
+}
+.date{
+    color:#b59191;
+    padding:0 0 0 3px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+.more{  
+    float:right;        
+    margin:5px 0 0px 0;
+    padding:0px;
+    clear:both;
+}
+.more a{
+    color: #999;
+    background-image: url(../images/icon_more.gif);
+    background-repeat: no-repeat;
+    background-position: right 3px;
+    text-align:right;
+    display:block;
+    margin:0px 0;
+    padding:0px 12px 0px 0px;
+}
+
+
+.btn{
+    color: #FFFFFF;
+    border:1px solid #175b90;
+    text-align: center;
+    padding: 6px 12px 4px 12px;
+    cursor:pointer;
+    vertical-align: 0px;
+    background-image:url(../images/btnCombg.gif);
+    background-repeat:repeat-x;
+    background-position:left top;
+    font-weight:bold;
+    min-width:80px;
+    margin:10px 0 10px 0;
+}
+
+
+.btn_scan{  
+    background-image:url(../images/btn_scan.gif);
+    background-repeat:repeat-x;
+    background-position:leftx top;
+    color: #FFFFFF;
+    border:1px solid #175b90;   
+    padding: 6px 10px 4px 30px;
+    cursor:pointer;
+    vertical-align: 0px;    
+    font-weight:bold;
+    min-width:90px;
+    *min-width:100px;
+    height:28px;
+    }
+
+
+
+
+.btn_work{
+    background-image:url(../images/btn_work.gif);
+    background-repeat:repeat-x;
+    background-position:leftx top;
+    color: #FFFFFF;
+    border:1px solid #175b90;   
+    padding: 6px 10px 4px 30px;
+    cursor:pointer;
+    vertical-align: 0px;    
+    font-weight:bold;
+    min-width:90px;
+    *min-width:100px;
+    height:28px;
+    
+}
+
+
+
+/*----------------------------------------------------------------- more */
+input , textarea , select {  
+    font-family:"新細明體";
+    color: #444444;
+    margin: 4px 0 3px 7px;
+    font-size: 100%;
+}
+    
+
+textarea {
+    width: 98%;
+    height: 150px;
+    line-height: 150%;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 1px 3px 2px;
+    font-size: 1em;
+    color:#333;
+}
+
+input.text {
+    line-height: 20px;
+    font-size: 1em;
+    padding: 2px 2px 5px 2px;
+    margin: 0;
+    color:#555;
+    width:98%;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+}
+
+input[readonly="true"]{
+    background:#CCC;
+}
+
+
+input + img , select + img {
+    vertical-align: bottom;
+    border: none;
+}
+
+input.text2 {
+    width: 160px;
+    height: 1.5em;
+    border: 1px solid #ccc;
+    padding: 2px 3px 0;
+}
+input.text3 {
+    width: 60px;
+    height: 1.5em;
+    border: 1px solid #ccc;
+    padding: 2px 3px 0;
+}
+
+.form td select {
+    height: 1.8em;
+    
+}
+
+.note {
+    clear: both;
+    margin: 5px 0px 10px;
+    padding: 5px 15px;
+    line-height:160%;
+    color: #666;
+}
+.note li {
+    margin: 0 0 5px;
+    list-style: circle inside;
+}
+.note li img {
+    vertical-align: -20%;
+}
+.must {
+    color: #662247;
+    margin-right: 1px;
+    font-weight:normal;
+}
+
+
+/*--------------------表格欄位預設位置 序號、時間----------------*/
+table th.date{ text-align:right; margin:0px;}
+table td.date{ color:#960; text-align:center; white-space:nowrap; }
+table th.number{text-align:center; width:5%; }
+table td.number{ text-align:center; color:#960;}
+
+
+/*--------------------表格欄位預設位置 左中右----------------*/
+.aRight, th.aRight, td.aRight{ text-align:right;}
+.aLeft, th.aLeft, td.aLeft{ text-align:left;}
+.aCenter, th.aCenter, td.aCenter{ text-align:center;}
+
+/*--------------------表格欄位預設位置 左中右----------------*/
+.btnRight{ float:right; margin:-25px 0 0 0; }
+.btnRight label{
+    color:#888;
+    padding:0px 0 0 10px;
+}
+.floatRight{ float:right;}
+.floatRight img{ vertical-align:middle; margin:0px; padding:0;}
+
+/*UI 優化*/
+.input_focus{
+	background-color: #0000FF !important;
+	color:#FFFFFF !important;
+}       
+.btn_focus{
+	font-size: 20px !important;
+	background-repeat: repeat !important;
+	width:auto !important;
+	HEIGHT: 40px !important;
+	background-color: #0000FF !important;
+	color:#FFFFFF !important;	
+} 	
+.input_readonly{
+	background:#CCC;
+}
+.select_row{
+	 background-color:navy;
+	 color:white; 
+	 font-weight:bold;
+}
+.btn_show{
+	
+}
+
+/*-------------file upload-------------*/
+.ajax_upload {
+
+}
+.ajax_form {
+
+}

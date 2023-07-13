@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--footer design--*/
+
+
+
+.footer {
+	padding:5px 0 10px 0px;
+	margin:0px 0px;
+	width:100%;	
+	overflow: hidden;
+	position:relative;
+	height:150px;
+	background-image:url(../images/footer_bg.gif);
+	background-repeat:repeat-x;
+	background-position:left top;
+	clear:both;
+	
+}
+
+.footer .logo{
+	position:absolute;
+	top:0px;
+	left:40px;
+}
+.footer p{
+	position:absolute;	
+	top:-10px;
+	*top:5px;
+	left:271px;
+	color:#51514f;
+	width: 990px;
+	font-size:9px;
+	text-align:left;
+	line-height:1.5em;
+}

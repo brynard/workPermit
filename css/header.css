@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------header -------------------*/
+
+.header {
+	background-image: url(../images/top_header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height:100px;
+	background-color:#eff1ee;
+	
+}
+.header h1 {
+	z-index: 12;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.header  object{
+	position:relative;
+	z-index:2;
+	
+	}
+
+.top{	
+	text-align:left;
+	position:relative;
+	z-index:99;
+	
+}
+
+
+
+/*---------------------------------------nav ------------------*/
+.header .nav {
+	position: absolute;
+	z-index: 10;
+	top:0px;
+	right:0px;
+	/*background-image:url(../images/nav_bg.png);
+	background-position:left top;
+	background-repeat:no-repeat;*/
+	width:734px;
+	height:78px;
+}
+
+.header .nav ul {
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.header .nav li {
+	display:inline;
+	padding:2px 5px 2px 8px;	
+	font-weight: normal;
+	background-image:url(../images/nav_icon.gif);
+	background-position:0px 4px;
+	background-repeat:no-repeat;		
+} 
+
+.header .nav .li_lang {
+	display:inline;
+	padding:2px 5px 2px 8px;	
+	font-weight: normal;
+	background-image:url(../images/nav_icon.gif);	
+	background-position:0px 4px;
+	*background-position:0px 10px;
+	background-repeat:no-repeat;		
+} 
+
+
+.header .nav li a {
+	color: #FFFFFF;
+} 
+.header .nav li a:hover{
+	color: #e17f4d;
+}
+
+.header .nav span select{
+	height:20px;
+	font-size:10px;
+	
+}
+
+/*---------------------------------------marquee area ------------------*/
+.mnews{  
+    margin-top:5px;
+    width:90%;
+    padding-left:40px;
+}
+
+.marquee td{
+    background-image:url(../images/news_title_bg.png);
+    background-repeat:repeat-x;
+    background-position:left top;
+    font-size:15px;
+    color: #EA561B;
+    border:1px solid #FFF;
+    padding-top:4px;
+    white-space: nowrap;
+}
+
+/*---------------------------------------news ------------------*/
+.header .news{	
+	position: absolute;
+	top:15px;
+	left:410px;
+	width:65%;
+}
+
+
+.header .span{
+	background-image:url(../images/news_title_bg.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	font-size:15px;
+	color: #EA561B;
+	position: absolute;
+	top:-1px;
+	left:77px;
+	width: 352px;
+	height: 19px;
+	border:1px solid #FFF;
+	padding-top:4px;
+	
+}
+
+.header .marquee td{
+    background-image:url(../images/news_title_bg.png);
+    background-repeat:repeat-x;
+    background-position:left top;
+    font-size:15px;
+    color: #EA561B;
+    border:1px solid #FFF;
+    padding-top:4px;
+    white-space: nowrap;
+}
+
+
+
+/*---------------------------------------weather ------------------*/
+.header .weather{
+	width:305px;
+	position: absolute;
+	top:24px;
+	left:450px;
+	color: #036;
+	font-weight:bold;
+	font-size:15px;
+
+	
+	
+}
+
+
+
+.btn_small {
+	color: #125E9A;
+	border:1px solid #dce0e0;
+	text-align: center;
+	padding: 5px 12px 4px 12px;
+	cursor:pointer;
+	vertical-align: 0px;
+	background-image:url(../images/btn_search.jpg);
+	background-repeat:repeat-x;
+	background-position:left top;
+	font-size:13px;
+	font-weight:bold;
+	margin:0px 0px 0px 3px;
+	width:52px;
+	height:22px;
+	}
+
+/*---------------------------------------inves ------------------*/
+.header .inves{
+	font-size:12px;
+	z-index: 8;
+	width:114px;
+	height:22px;
+	position: absolute;
+	top:448px;
+	left:56px;
+	color: #fcc7c7;
+	padding:5px 0px 3px 10px;
+}
+
+
+
+/*---------------------------------------visitor ------------------*/
+.header .visitor {
+	position: absolute;
+	top:103px;
+	left:15px;	
+	color: #333;
+}
+.header .visitor em,.header .update em{
+	color: #1e55a0;
+	font: bold normal 85% Verdana, Geneva, sans-serif;
+}
+
+/*---------------------------------------update ------------------*/
+.header .update{
+	position: absolute;
+	top:39px;
+	left:593px;
+	color: #333;
+	padding-left:5px;
+	border-left: 1px dotted #999999;
+}
+
+/*---------------------------------------user ------------------*/
+.header .user{	
+	position: absolute;
+	top:98px;
+	right:5px;
+}
+.header .user ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.header .user li{
+	margin:0 1px 0;
+	display:inline;
+	background: url(../images/userTab_bg1.gif) no-repeat right top;
+	padding:5px 10px 2px 0px;
+	*padding:0px 10px 0px 0px;		
+}
+.header .user li a{		
+	background: url(../images/userTab_bg1.gif) no-repeat left top;
+	padding:4px 0 3px 10px;	
+	*padding:5px 0 3px 10px;
+	_padding:5px 0 2px 10px;
+	display:inline-block;
+	text-decoration:none;
+	color: #5e5d5d;	
+}
+.header .user li.here{
+	background: url(../images/userTab_bg2.gif) no-repeat right top;
+	padding:5px 10px 2px 0px;
+	*padding:0px 10px 0px 0px;	
+	margin:0 1px 0;	
+} 
+ 
+.header .user li.here a{
+	background: url(../images/userTab_bg2.gif) no-repeat left top;	
+	padding:4px 0 3px 10px;	
+	*padding:5px 0 4px 10px;
+	_padding:5px 0 2px 10px;
+	font-weight: bold;
+	color: #9e330a;
+}
+
+
+/*------------------------------------------------header search*/
+.header .search{
+	position: absolute;
+	top:123px;
+	right:5px;
+	color:#FFF;
+	
+}
+.header .search form{ margin:0 0 0 15px;}
+.header .search form input{ vertical-align: middle;}
+.header .search h2{
+	margin:0px;
+	padding:2px 5px;
+	text-indent:-5000px;
+	background-image: none;
+}
+.header .search img{ vertical-align:middle;}
+.header .search .adv {clear:both;padding:2px 0}
+.header .search .adv a{	
+	font-size: 85%;
+	color: #666666;
+	
+}
+
+
+/*---------------------------------------top menu ------------------*/
+
+.top_menu{
+	z-index: 12;
+	/*position: absolute;*/
+	top:95px;	
+	left:0px;
+	background-image:url(../images/menu_bg.jpg);
+	background-repeat:repeat-x;
+	background-position:left top;
+	height:30px;
+	/*min-width:1000px; edit 99014*/
+	width:100%;
+	padding-left:0px;
+		
+}

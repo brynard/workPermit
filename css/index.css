@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin:0; padding:0;}
+.index { position:relative; width:1000px; height:600px; background: #fdfdfd url(../images/indexBg.jpg) no-repeat center top; margin:0 auto; padding:0;}
+.index2 { position:relative; width:1000px; height:600px; background: #fdfdfd url(../images/indexBg2.jpg) no-repeat center top; margin:0 auto; padding:0;}
+.index .Logo, .index2 .Logo { position:absolute; left:350px; top:40px;}
+ul.Link { position: absolute; right: 115px; top: 140px; letter-spacing: 0.05em; }
+ul.Link, ul.but { list-style: none; margin: 0; padding: 0; font: bold 1.313em "微軟正黑體"; }
+ul.Link li { margin:15px 0;}
+ul.Link li span { font: normal .688em Arial, Helvetica, sans-serif; margin-left:8px; }
+ul.Link li.new { background:url(../images/indexIcon01.png) no-repeat 0 8px; padding:0 0 0 30px;}
+ul.Link li.statute { background:url(../images/indexIcon02.png) no-repeat 0 7px; padding:0 0 0 30px;}
+ul.Link li.manual { background:url(../images/indexIcon03.png) no-repeat 0 4px; padding:0 0 0 30px;}
+ul.Link li.movie { background:url(../images/indexIcon04.png) no-repeat 3px 4px; padding:0 0 0 30px;}
+ul.Link li a { color: #333; text-decoration: none; }
+ul.Link li a:hover {color:#900;}
+ul.but {position:absolute; right:115px; top:390px;    text-align: right;}
+ul.but li { display: inline-block; margin:15px 0 5px 15px;}
+.link { text-align: left; font-size:13px; vertical-align:middle; color:#666;}
+.link img {vertical-align:middle; margin:0 8px;}
